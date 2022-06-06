@@ -37,6 +37,15 @@ li {
     text-decoration: none;
 }
 
+/* Main */
+/* .ms_jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+}*/
+
+.ms_products {
+    width: calc(100% / 3);
+}
 
 /* Responsive */
 /* SM */
@@ -52,6 +61,10 @@ li {
 
     .ms_logo-sony {
         width: 8%;
+    }
+
+    .ms_products {
+        width: calc(100% / 5);
     }
 }
 
