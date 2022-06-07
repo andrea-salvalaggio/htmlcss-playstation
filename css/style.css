@@ -42,6 +42,14 @@ li {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
 }*/
+.ms_main-logo-1 {
+    width: 300px;
+    margin-top: 150px;
+}
+
+.ms_main-logo-2 {
+    width: 300px;
+}
 
 .ms_products {
     width: calc(100% / 3);
@@ -61,6 +69,24 @@ li {
 
 .ms_bg-blue {
     background-color: #00439c;
+}
+
+.ms_bg-img-1 {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms_bg-img-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms_margin-top-banner {
+    margin-top: 118px;
 }
 
 ul li {
