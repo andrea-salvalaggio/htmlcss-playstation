@@ -19,7 +19,7 @@ li {
 
 /* Header */
 .ms_logo-sony {
-    width: 15%;
+    width: 80px;
 }
 
 .ms_bullet-list::before {
@@ -37,14 +37,19 @@ li {
     text-decoration: none;
 }
 
+.ms_btn-1:hover {
+    outline: 2px solid #fff;
+    outline-offset: -4px;
+}
+
+.ms_border:hover {
+    border: 1px solid lightgrey;
+}
+
 /* Main */
-/* .ms_jumbo {
-    background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-}*/
 .ms_main-logo-1 {
     width: 300px;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 .ms_main-logo-2 {
@@ -86,16 +91,39 @@ li {
 }
 
 .ms_margin-top-banner {
-    margin-top: 118px;
+    margin-top: 109px;
 }
 
 ul li {
     padding: 5px 0;
 }
 
+.ms_btn-2:hover {
+    outline: 2px solid black;
+    outline-offset: -4px;
+}
+
+.ms_btn-3:hover {
+    outline: 2px solid #0d6efd;
+    outline-offset: -4px;
+}
+
+.ms_game {
+    background-color: red;
+}
+
+.ms_overlay {
+    transition: all 1s;
+}
+
+.ms_overlay:hover {
+    position: relative;
+    bottom: 30px;
+}
+
 /* Footer */
 .ms_footer-logo-1 {
-    width: 100px;
+    width: 80px;
 }
 
 .ms_footer-logo-2 {
@@ -107,7 +135,7 @@ ul li {
 @media all and (min-width: 576px) {
 
     .ms_logo-sony {
-        width: 13%;
+        width: 80px;
     }
 
     .ms_social {
@@ -118,19 +146,35 @@ ul li {
 /* MD */
 @media all and (min-width: 768px) {
 
-    .ms_logo-sony {
-        width: 8%;
-    }
-
     .ms_products {
         width: calc(100% / 5);
+    }
+
+    .ms_social {
+        width: calc(100% / 4 - 50px);
     }
 }
 
 /* LG */
 @media all and (min-width: 992px) {
 
-    .ms_logo-sony {
-        width: 5%;
+    .ms_social {
+        width: calc(100% / 4 - 100px);
+    }
+}
+
+/* XL */
+@media all and (min-width: 1200px) {
+
+    .ms_social {
+        width: calc(100% / 4 - 150px);
+    }
+}
+
+/* XXL */
+@media all and (min-width: 1400px) {
+
+    .ms_social {
+        width: calc(100% / 4 - 200px);
     }
 }
