@@ -47,12 +47,28 @@ li {
     width: calc(100% / 3);
 }
 
+.ms_social {
+    width: calc(100% / 2);
+}
+
+.ms_bg-gray {
+    background-color: #bebcbb;
+}
+
+.ms_bg-dark-blue {
+    background-color: #161c3b;
+}
+
 /* Responsive */
 /* SM */
 @media all and (min-width: 576px) {
 
     .ms_logo-sony {
         width: 13%;
+    }
+
+    .ms_social {
+        width: calc(100% / 4);
     }
 }
 
