@@ -42,8 +42,8 @@ li {
     outline-offset: -4px;
 }
 
-.ms_border:hover {
-    border: 1px solid lightgrey;
+.ms_shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Main */
@@ -113,12 +113,20 @@ ul li {
 }
 
 .ms_overlay {
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .ms_overlay:hover {
-    position: relative;
-    bottom: 30px;
+    transform: translateY(-15px);
+}
+
+.ms_opacity {
+    opacity: 0.5;
+}
+
+.ms_opacity:hover {
+    opacity: 1;
+    border-bottom: 3px solid #0d6efd;
 }
 
 /* Footer */
