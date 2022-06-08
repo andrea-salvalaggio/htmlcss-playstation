@@ -44,11 +44,16 @@ li {
 
 .ms_shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
-/* .bi-chevron-down::before {
+.show .bi-chevron-down::before {
     transform: rotate(180deg);
-} */
+}
+
+.ms_z-index {
+    z-index: 1;
+}
 
 /* Main */
 .ms_main-logo-1 {
@@ -118,6 +123,7 @@ ul li {
 
 .ms_overlay:hover {
     transform: translateY(-15px);
+    cursor: pointer;
 }
 
 .ms_opacity {
@@ -127,6 +133,7 @@ ul li {
 .ms_opacity:hover {
     opacity: 1;
     border-bottom: 3px solid #0d6efd;
+    cursor: pointer;
 }
 
 /* Footer */
