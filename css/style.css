@@ -46,6 +46,10 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* .bi-chevron-down::before {
+    transform: rotate(180deg);
+} */
+
 /* Main */
 .ms_main-logo-1 {
     width: 300px;
@@ -106,10 +110,6 @@ ul li {
 .ms_btn-3:hover {
     outline: 2px solid #0d6efd;
     outline-offset: -4px;
-}
-
-.ms_game {
-    background-color: red;
 }
 
 .ms_overlay {
